@@ -1,0 +1,48 @@
+---
+- summary: |
+    Регистрация через Email
+  status: fail
+
+- summary: |
+     Проверка возможности входа зарегистированого пользователя
+  status: pass
+  
+- summary: |
+    Проверка функции входа с некорректными данными
+  status: fail
+
+- summary: |
+     Регистрация через GitHub
+  status: pass
+
+  - summary: |
+    Регистрация через Google
+  status: fail
+
+- summary: |
+     Приглашение игрока через отправление ссылки 
+  status: pass
+  
+- summary: |
+    Проверка работоспособности ссылки приглашения
+  status: fail
+
+- summary: |
+     Начало игры против другого пользователя 
+  status: pass
+
+ - summary: |
+    Проверка возможности просматривать код соперника во время игры  
+  status: fail
+
+- summary: |
+     Игра против бота
+  status: fail  
+  
+- summary: |
+    Возможность просмотра рейтингов
+  status: fail
+
+- summary: |
+     Возможность сортировки рейтингов
+  status: pass
